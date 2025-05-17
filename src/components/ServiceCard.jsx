@@ -3,7 +3,7 @@ import './ServiceCard.css';
 
 function ServiceCard({ title, description }) {
   return (
-    <div className="service-card">
+    <div className="service-card" id='services'>
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
