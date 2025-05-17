@@ -1,16 +1,38 @@
 .service-card {
+  height: 15em;
   background-color: #022;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 30px;
   text-align: left;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s;
+  user-select: none;
 }
 
 .service-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  background-color: #004d40;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .service-card h3 {
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 10px;
-  color: #00ffc6;
+  color: white;
+}
+
+.card-description {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.4;
 }

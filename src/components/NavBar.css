@@ -51,6 +51,7 @@
 .menu.closed {
   transform: scaleX(0);
   visibility: hidden;
+  transition: 0.4s ease-in-out;
 }
 
 
